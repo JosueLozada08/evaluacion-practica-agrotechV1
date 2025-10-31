@@ -1,0 +1,34 @@
+# Maven target folder
+target/
+
+# IDEs (NetBeans, VSCode, IntelliJ, Eclipse)
+.idea/
+.vscode/
+*.iml
+
+# Compiled files and logs
+*.class
+*.log
+logs/
+logs/**
+
+# Database files
+database/*.mv.db
+database/*.trace.db
+
+# Temporary / system files
+*.tmp
+*.bak
+*.swp
+~$*
+
+# H2 DB lock files
+*.lock.db
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Archive folders
+.inprogress/
+archived/
